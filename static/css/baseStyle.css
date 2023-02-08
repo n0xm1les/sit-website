@@ -198,10 +198,12 @@ ul#navbar-menu .nav-button.active {
 }
 
 .btn-gradient1-outline {
-    border: 2px solid #00ABD8;
+    border: 3px solid #00ABD8;
     transition: all 500ms;
 }
 
 .btn-gradient1-outline:hover {
-    background: linear-gradient(-135deg, #00ABD8 0%,#00E0A5 100%);
+    background: linear-gradient(135deg, #7116ea 0%,#ea6060 100%);
+    border: 3px solid #7116ea;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.18);
 }

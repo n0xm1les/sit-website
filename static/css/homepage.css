@@ -297,13 +297,17 @@ div.input-text input, div.input-text textarea {
     padding: 0 10px 0 60px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 30px;
-    transition: border 500ms, box-shadow 750ms;
+    transition: border 250ms, box-shadow 500ms;
     font-size: 1.2rem;
 }
 
 div.input-text textarea {
     padding-top: 7px;
     border-radius: 10px;
+}
+
+div.input-text:hover input, div.input-text:hover textarea {
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 div.input-text input:focus, div.input-text textarea:focus {
