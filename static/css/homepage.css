@@ -61,3 +61,274 @@ div#experiences-header h3.experience-detail {
     color: #ffffff;
     font: 1.15rem 'Michroma', sans-serif;
 }
+
+section{
+    width: 100%;
+    padding: 25px 20px 0 20px;
+}
+
+
+h1.section-title {
+    width: 100%;
+    text-align: center;
+    font: 3rem 'Rubik', sans-serif;
+    font-weight: 700;
+    background: #4c50b9;
+    background: linear-gradient(-135deg, #00ABD8 0%,#00E0A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+h1.section-title::after {
+    content: " ";
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(135deg, #7116ea 0%,#ea6060 100%);
+}
+
+div.product-card {
+    margin: 25px 0 75px 0;
+}
+
+h2.product-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 25px 0 20px 0;
+    background: #7116ea;
+    background: linear-gradient(135deg, #7116ea 0%,#ea6060 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.product-details {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+section#we-offer {
+    background-color: #111;
+    padding: 50px 20px;
+}
+
+div.we-offer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+div.we-offer-row:first-child {
+    margin-bottom: 25px;
+}
+
+div.we-offer-card {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+div.we-offer-card img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(25%);
+}
+
+div.we-offer-card h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    z-index: +1;
+}
+
+section#about-us p {
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+section#about-us p#we-offer-text {
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 50px 0;
+}
+
+div#experiences-in-number {
+    margin-top: 50px;
+}
+
+div.experience-card {
+    width: 150px;
+    height: 300px;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+}
+
+div.experience-card:nth-child(2) {
+    flex-direction: column-reverse;
+}
+
+div.experience-value-circle {
+    font-family: 'Michroma', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(-135deg, #00ABD8 0%,#00E0A5 100%);
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+div.experience-value-circle::after {
+    position: absolute;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    top: -15px; left: -15px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.18);
+}
+
+div.experience-card span {
+    font-size: 3rem;
+    margin: 5px 0;
+}
+
+h2.experience-def {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.5rem;
+}
+
+img#partners {
+    margin: 25px 0;
+}
+
+section#send-message {
+    position: relative;
+    padding: 50px 0;
+}
+
+img#send-message-background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+div#contact-card {
+    width: 95%;
+    height: 100%;
+    padding: 20px 15px 50px 15px;
+    background-color: #111111;
+    border-radius: 10px;
+}
+
+div#contact-card h1.section-title {
+    margin-bottom: 15px;
+}
+
+div#contact-card h1.section-title::after {
+    display: none;
+}
+
+div#contact-card form {
+    width: 100%;
+    height: 100%;
+}
+
+div.input-text {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    /* padding: 0 10px; */
+    position: relative;
+}
+
+div.input-text#message-area {
+    height: auto;
+}
+
+
+img.input-icon {
+    width: 31px;
+    height: 20px;
+    position: absolute;
+    top: 5px; left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+div.input-text#message-area img.input-icon {
+    top: 7px;
+}
+
+div.input-text label {
+    position: absolute;
+    top: -10px; left: 20px;
+    background-color: #111;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 5px;
+}
+
+div.input-text input, div.input-text textarea {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    padding: 0 10px 0 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    transition: border 500ms, box-shadow 750ms;
+}
+
+div.input-text textarea {
+    padding-top: 7px;
+    border-radius: 10px;
+}
+
+div.input-text input:focus, div.input-text textarea:focus {
+    border: 1px solid #00ABD8;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.18);
+}
+
+div.input-text input:not(:placeholder-shown), div.input-text textarea:not(:placeholder-shown) {
+    border: 1px solid #00ABD8;
+}
+
+div.input-text input:invalid, div.input-text textarea:invalid {
+    border: 1px solid #ea6060;
+}
+
+div#contact-card form button {
+    padding: 10px 25px 10px 50px;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+div#contact-card form button img.btn-icon {
+    position: absolute;
+    top: 10px; left: 15px;
+    width: 25px;
+    height: 25px;
+}
